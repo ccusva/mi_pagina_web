@@ -1,0 +1,217 @@
+ 
+ .header {
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+ }
+  body {
+    background-color: bisque;
+  }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: red;
+ }
+ 
+ li a { 
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+ }
+ 
+ li a:hover {
+    background-color: #555;
+    color: white;
+  }
+ 
+ /*cambiar el color cuando se pasa el mouse*/
+ .topnav a:hover {
+    background-color: red;
+    
+   }  
+ 
+
+ h1 {
+     color: coral;
+     margin-left:10px;
+     border-style:groove;
+     outline-color:red;
+     outline-style:dotted;
+     background-color:gray;
+    
+ }
+ div {
+    text-align:justify;
+ }
+ div:hover{background-color:pink;}
+ 
+  p { 
+     background-color:yellow;
+     opacity: 0.6;
+     border-style:dashed;
+     border-width:5px 20px; /*5 px pal borde inferior y superior y 20 px pa los bordes laterales*/
+     border-color:red green blue yellow;
+     border-radius:5px;
+     margin:25px 50px 75px 100px;
+     text-align-last:center;
+     line-height: 1.5;
+  }
+ 
+  h2 {
+     color: aqua;
+     text-decoration-line:underline;
+     text-decoration-color:blue;
+     text-decoration-style:double;
+     text-decoration-thickness: 10%;
+     text-align:center;
+     letter-spacing:5px;
+     text-shadow: 1.5px 1.5px red;
+     font-style:oblique;
+  }
+ 
+  h3 {
+     color:red;
+     text-align:left;
+     font-family:"Sofia";
+     font-size:40px;
+  }
+ 
+  h4 {
+     color: blueviolet;
+     margin-left:20px;
+     border-style:dotted;
+     outline-color:yellow;
+     background-color:blanchedalmond;
+     text-align:center;
+    }
+
+ h6 {
+    color: violet;
+    text-align:center;
+    font-family:"sofia";
+    font-size:20px;
+ }
+  /*link para ir a la pagina de macronutrientes*/
+  a:link {
+     color: blue;
+  }
+  a:visited {
+     color: orange;
+  }
+  a:hover {
+     color:hotpink;
+  }
+  a:active {
+     color:red;
+  }
+ 
+  ul.b {
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: beige;
+  }
+
+
+  p.a {
+     color:black;
+     text-align:justify;
+     background-color:orange;
+     opacity: 1;
+     border-style:dashed;
+     border-width:5px 20px; /*5 px pal borde inferior y superior y 20 px pa los bordes laterales*/
+     border-color:red green blue yellow;
+     border-radius:5px;
+     margin: auto;
+ 
+  }
+ 
+  p.b {
+    color:black;
+    text-align:center;
+    background-color:white;
+    opacity: 1;
+    border-style:none;
+    border-color:none;
+    padding-top:10px;
+    padding-right:100px;
+    padding-bottom:20px;
+    padding-left:30px;
+ }
+ 
+ table, td, th {
+    border: 1px solid red;
+    text-align: center;
+ }
+ 
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align:center;
+ }
+ 
+ td, th {
+    padding: 15px;
+    border-bottom: 1px solid green
+ }
+ 
+ tr:hover {background-color: coral;} 
+ tr:nth-child(even) {background-color: beige;}
+ 
+ span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+ 
+ }
+ 
+ p.c {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+ }
+ 
+ .column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+ }
+ 
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width:180px;
+}
+
+div.gallery hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
